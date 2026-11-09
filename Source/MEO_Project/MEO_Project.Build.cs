@@ -8,7 +8,17 @@ public class MEO_Project : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "NetCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject",
+			"Engine", 
+			"InputCore", 
+			"EnhancedInput", 
+			"NetCore",
+            "UMG",        
+            "Slate",      
+            "SlateCore"   
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
